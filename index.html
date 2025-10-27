@@ -26,8 +26,9 @@
 </head>
 
 <body>
-    <h1 id="title">Metagegevens Duurzaam Toegankelijke Overheidsinformatie (MDTO)</h1>
-    <section id='abstract'>
+    <h1 id="title">MDTO Metagegevenschema</h1>
+    <section>
+        <h2>Introductie</h2>
         <p>
             MDTO staat voor Metagegevens voor Duurzaam Toegankelijke Overheidsinformatie en is een Nederlandse standaard
             voor het vastleggen van informatie over overheidsdocumenten. Het doel is om overheidsinformatie op de lange
@@ -35,23 +36,160 @@
             informatiehuishouding (DUTO) genoemd. MDTO helpt overheden bij het voldoen aan wettelijke verplichtingen en
             vergemakkelijkt samenwerking en gegevensuitwisseling.
         </p>
+
+        <h3>Wat is een metagegevenschema</h3>
+        <p>
+            Een metagegevensschema beschrijft de structuur, betekenis en regels waar bepaalde metagegevens aan moeten
+            voldoen. Of zoals geformuleerd in NEN-ISO 23081 een “logische structuur die het verband aangeeft tussen
+            elementen van metagegevens, doorgaans door regels vast te stellen voor het gebruik en beheer van
+            metagegevens, vooral met betrekking tot de semantiek, de syntaxis en de keuzevrijheid (mate van
+            verplichting) van waarden." <br><br>
+
+            Een metagegevensschema kan voor verschillende doeleinden gebruikt worden, zoals:<br>
+
+        <ul>
+            <li>Het ontwerpen of inrichten van de metagegevensfuncties van een informatiesysteem. Een metagegevensschema
+                beschrijft de structuur van de metagegevens. Op basis daarvan kunnen de functies voor opslag, invoeren,
+                wijzigen en tonen van de metagegevens ontworpen worden.</li>
+            <li>De uitleg van de betekenis van metagegevens. Bijvoorbeeld in een handleiding of als verklarende tekst in
+                een gebruikersinterface.</li>
+            <li>De validatie van metagegevens. Het metagegevensschema beschrijft de regels waaraan de metagegevens
+                moeten voldoen. Op basis daarvan kunnen de metagegevens gecontroleerd worden.</li>
+        </ul>
+
+        Het metagegevensschema van <b>Metagegevens Duurzaam Toegankelijke Overheidsinformatie</b> (MDTO) beschrijft wat
+        MDTO-metagegevens zijn en waar zij aan moeten voldoen.<br><br>
+
+        MDTO beschrijft in de basis de metagegevens die behoren bij informatieobjecten en bestanden. Daarnaast
+        beschrijft MDTO een aantal objecten die binnen de context van informatieobjecten van belang zijn.
+
+        </p>
+
+        <h3>Objecten</h3>
+        <h4>Soorten objecten</h4>
+        <p>
+
+            MDTO maakt onderscheid tussen verschillende soorten objecten waaraan metagegevens verbonden zijn:<br>
+        <ul>
+            <li>Informatieobject: Een op zichzelf staand geheel van gegevens met een eigen identiteit. Zoals een
+                tekstdocument of een foto. Zie de definitie van Informatieobject voor een nadere toelichting. </li>
+            <li>Bestand: Een geordende verzameling van gegevens in elektronische vorm, die door een elektronisch
+                apparaat onder één naam kan worden behandeld en aangesproken. Zoals een Word-bestand of MPEG-bestand.
+                Zie ook de definitie van Bestand. </li>
+            <li>Bedrijfsactiviteit: een taak die wordt uitgevoerd door een organisatie (Bron: NEN-ISO 30300:2020). Zie
+                ook de specificatie van Bedrijfsactiviteit.</li>
+            <li>Actor: Persoon, groep, organisatie of functionaris. Zie ook de specificatie van Actor.</li>
+            <li>Locatie: Fysieke plaats in de ruimte. Zie ook de specificatie van Locatie.</li>
+        </ul>
+
+        In het onderstaande diagram zijn de in MDTO gespecificeerde relaties tussen de verschillende objecten
+        weergegeven:<br>
+
+        <img src="https://www.nationaalarchief.nl/sites/default/files/field-media-image/Illustratie_1.png"></a>
+
+        </p>
+
+
+
+        <h4>Aggregaties</h4>
+
+        <p>
+            Een informatieobject kan samengesteld zijn uit andere informatieobjecten. Dit wordt een aggregatie genoemd.
+            Een archief omvat bijvoorbeeld alle informatieobjecten van één organisatie of persoon. Een dossier bevat
+            alle informatieobjecten die op een bepaald onderwerp betrekking hebben. Een website bevat meerdere
+            webpagina’s en een e-mail kan bijlagen bevatten. MDTO gaat ervan uit dat metagegevens bij elk
+            aggregatieniveau zijn vastgelegd.
+
+            Het is niet eenduidig wanneer een informatieobject als aggregatie beschouwd wordt. Bijvoorbeeld:<br>
+        <ul>
+            <li>Is een e-mail met een bijlage een ongedeeld informatieobject? Of is het een aggregatie met als
+                onderdelen de tekst van de mail en de bijlage?</li>
+            <li>Is een database met persoonsbeschrijvingen een ongedeeld informatieobject? Of is het een aggregatie met
+                als onderdelen de beschrijvingen van alle individuele personen?</li>
+            <li>Is een wet een ongedeeld informatieobject? Of is het een aggregatie met als onderdelen de artikelen in
+                de wet?</li>
+            <li>Is een verzameling van versies van een tekstdocument een ongedeeld informatieobject? Of is het een
+                aggregatie met als onderdelen de losse versies?</li>
+        </ul>
+        Of een informatieobject wordt beschouwd als ongedeeld of als een aggregatie is een keuze waar MDTO geen regels
+        voor geeft. Maar deze keuze heeft wel consequenties voor de metagegevens. Als een informatieobject als
+        ondeelbaar wordt beschouwd, dan is het niet mogelijk om in MDTO-metagegevens onderscheid te maken tussen
+        onderdelen van het informatieobject. Bijvoorbeeld als de versies van een tekstdocument geen afzonderlijke
+        informatieobjecten zijn, dan hebben ze ook geen eigen creatiedatum. En als een wet of besluit ondeelbaar is, dan
+        kunnen de artikelen geen eigen geldigheidsduur hebben. Als een mail ondeelbaar is, dan kunnen er voor de bijlage
+        geen afzonderlijke beperkingen op de openbaarheid gelden.
+        </p>
+        <h4>Overerving</h4>
+
+        <h4>Bestanden</h4>
+        <p>
+            MDTO maakt onderscheid tussen een informatieobject als eenheid van informatie ongeacht de vorm, en de
+            specifieke vorm waarin deze informatie wordt gerepresenteerd. Bestanden zijn één vorm van representatie (ook
+            wel manifestatie genoemd). Maar een representatie kan bijvoorbeeld ook een papieren stuk of een videotape
+            zijn. Andere vormen dan bestanden worden in MDTO verder niet behandeld.<br><br>
+
+            De metagegevens die MDTO specificeert voor een informatieobject zijn onafhankelijk van haar representaties.
+            Zoals de titel of auteur. De metagegevens die MDTO specificeert voor een bestand hebben specifiek betrekking
+            op die representatie. Zoals het aantal bytes en het bestandsformaat. Door de metagegevens van
+            informatieobject en representatie van elkaar te scheiden hoeven de representatieonafhankelijke metagegevens
+            slechts één keer vastgelegd te worden. En kunnen in een later stadium gemakkelijk representaties toegevoegd
+            worden aan een informatieobject.<br><br>
+
+            Een informatieobject kan meerdere representaties hebben. Bijvoorbeeld een tekst kan gerepresenteerd worden
+            door een Word-bestand én een PDF-bestand. Of een afbeelding door een bestand met hoge resolutie én een
+            bestand met lage resolutie. De bestanden zijn verschillend, maar de informatie is dan hetzelfde. Om een
+            informatieobject duurzaam toegankelijk te maken en houden, kan het nodig zijn om deze verschillende
+            representaties te onderscheiden. Bijvoorbeeld omdat in de loop van de tijd een bestandsformaat niet meer
+            ondersteund wordt. Of een PDF-bestand voor menselijke lezing en een XML-bestand voor machinale
+            verwerking.<br><br>
+
+            Het is ook mogelijk dat een informatieobject opgedeeld is in meerdere representaties. Bijvoorbeeld losse
+            bestanden voor elke pagina van een gescand tekstdocument. Of een notitie als los bestand voor elke versie.
+            Of een webpagina als een HTML-bestand en bestanden voor de afbeeldingen op de pagina. De representaties
+            bevatten dan niet dezelfde inhoud.<br><br>
+
+            Meestal is het zo dat representaties gekoppeld zijn aan een ongedeeld informatieobject. Maar ook aggregaties
+            kunnen representaties hebben. Bijvoorbeeld een mailbox die beschouwd wordt als een aggregatie van mappen en
+            daarbinnen mailberichten, kan als geheel gerepresenteerd worden door een Outlook-gegevensbestand
+            (.pst-bestand). Of een website die beschouwd wordt als een aggregatie van webpagina’s, kan als geheel
+            gerepresenteerd worden door een Web ARChive-bestand (WARC).<br><br>
+        </p>
+
+        <section id="h1" data-include-format="markdown" data-include="h1-contextobjecten.md"></section>
+
+        <table class="numbered">
+            <tr>
+                <th>test</th>
+                <th>test</th>
+            </tr>
+            <tr>
+                <td>waarde</td>
+                <td>waarde</td>
+            </tr>
+        </table>
+
+
     </section>
 
-    <section id='informative'>
-        <h2>A section</h2>
-        <p>
-            MDTO staat voor Metagegevens voor Duurzaam Toegankelijke Overheidsinformatie en is een Nederlandse standaard
-            voor het vastleggen van informatie over overheidsdocumenten. Het doel is om overheidsinformatie op de lange
-            termijn vindbaar, interpreteerbaar en betrouwbaar toegankelijk te houden, ook wel duurzame digitale
-            informatiehuishouding (DUTO) genoemd. MDTO helpt overheden bij het voldoen aan wettelijke verplichtingen en
-            vergemakkelijkt samenwerking en gegevensuitwisseling.
-        </p>
+
+    <section>
+        <h2>MDTO metagegevensschema</h2>
+        <h3>Klassen</h3>
+        <h4>Object</h4>
+        <h4>Informatieobject</h4>
+        <h4>Locatie</h4>
+        <h4>Actor</h4>
+        <h4>Bedrijfsactiviteit</h4>
+        <h4>Bestand</h4>
+
+        <h3>Attribuuten</h3>
+        <h4></h4>
     </section>
+
+
+
 
     <section id='sotd' class="override">
-        <p>
-            This is required.
-        </p>
     </section>
     <section data-dfn-for="Foo">
         <h2>Start your spec!</h2>
