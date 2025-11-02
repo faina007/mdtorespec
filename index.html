@@ -3,23 +3,37 @@
 
 <head>
     <meta charset='utf-8'>
-    <script src='https://www.w3.org/Tools/respec/respec-w3c' async class='remove'></script>
+    <script src='respec.js' async class='remove'></script>
     <script class='remove'>
         // All config options at https://respec.org/docs/
         var respecConfig = {
             // Working Groups ids at https://respec.org/w3c/groups/
             format: "markdown",
             group: "webapps",
-            specStatus: "WD",
+            subtitle: "",
+            specStatus: "LS",
+            noRecTrack: true,
             publishDate: "2020-03-30",
             modificationDate: "2020-04-13",
             editors: [{
                 name: "Pietje Puk",
                 url: "http://your-site.com",
             }],
+            isPreview: false,
+            alternateFormats: [
+                {
+                    label: "PDF",
+                    uri: "https://example.w3.org/TR/example.pdf",
+                },
+                {
+                    label: "XML",
+                    uri: "https://example.w3.org/TR/example.xml",
+                },
+            ],
+            latestVersion: "https://respec.org/docs/",
             github: {
                 branch: "main",
-                repoURL: "user/my-awesome-api",
+                repoURL: "https://github.com/faina007/mdtorespec",
             },
             // See https://respec.org/docs/#xref for usage.
             xref: "web-platform",
@@ -31,41 +45,10 @@
     <h1 id="title">MDTO Metagegevenschema</h1>
     <section>
         <h2>Introductie</h2>
-        <p>
-            MDTO staat voor Metagegevens voor Duurzaam Toegankelijke Overheidsinformatie en is een Nederlandse standaard
-            voor het vastleggen van informatie over overheidsdocumenten. Het doel is om overheidsinformatie op de lange
-            termijn vindbaar, interpreteerbaar en betrouwbaar toegankelijk te houden, ook wel duurzame digitale
-            informatiehuishouding (DUTO) genoemd. MDTO helpt overheden bij het voldoen aan wettelijke verplichtingen en
-            vergemakkelijkt samenwerking en gegevensuitwisseling.
-        </p>
+        <section id="h1" data-include-format="markdown" data-include="introductie.md"></section>
 
         <h3>Wat is een metagegevenschema</h3>
-        <p>
-            Een metagegevensschema beschrijft de structuur, betekenis en regels waar bepaalde metagegevens aan moeten
-            voldoen. Of zoals geformuleerd in NEN-ISO 23081 een “logische structuur die het verband aangeeft tussen
-            elementen van metagegevens, doorgaans door regels vast te stellen voor het gebruik en beheer van
-            metagegevens, vooral met betrekking tot de semantiek, de syntaxis en de keuzevrijheid (mate van
-            verplichting) van waarden." <br><br>
-
-            Een metagegevensschema kan voor verschillende doeleinden gebruikt worden, zoals:<br>
-
-        <ul>
-            <li>Het ontwerpen of inrichten van de metagegevensfuncties van een informatiesysteem. Een metagegevensschema
-                beschrijft de structuur van de metagegevens. Op basis daarvan kunnen de functies voor opslag, invoeren,
-                wijzigen en tonen van de metagegevens ontworpen worden.</li>
-            <li>De uitleg van de betekenis van metagegevens. Bijvoorbeeld in een handleiding of als verklarende tekst in
-                een gebruikersinterface.</li>
-            <li>De validatie van metagegevens. Het metagegevensschema beschrijft de regels waaraan de metagegevens
-                moeten voldoen. Op basis daarvan kunnen de metagegevens gecontroleerd worden.</li>
-        </ul>
-
-        Het metagegevensschema van <b>Metagegevens Duurzaam Toegankelijke Overheidsinformatie</b> (MDTO) beschrijft wat
-        MDTO-metagegevens zijn en waar zij aan moeten voldoen.<br><br>
-
-        MDTO beschrijft in de basis de metagegevens die behoren bij informatieobjecten en bestanden. Daarnaast
-        beschrijft MDTO een aantal objecten die binnen de context van informatieobjecten van belang zijn.
-
-        </p>
+        <section id="h1" data-include-format="markdown" data-include="wat-is-een-metagegevenschema.md"></section>
 
         <h3>Objecten</h3>
         <h4>Soorten objecten</h4>
@@ -165,6 +148,7 @@
 
     <section>
         <h2>MDTO metagegevensschema</h2>
+
         <h3>Klassen</h3>
         <h4 id="h2">Object</h4>
         <h4>Informatieobject</h4>
