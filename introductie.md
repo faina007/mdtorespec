@@ -1,2 +1,1 @@
-# Introductie
 MDTO staat voor **Metagegevens voor Duurzaam Toegankelijke Overheidsinformatie** en is een Nederlandse standaard voor het vastleggen van informatie over overheidsdocumenten. Het doel is om overheidsinformatie op de lange termijn vindbaar, interpreteerbaar en betrouwbaar toegankelijk te houden, ook wel duurzame digitale informatiehuishouding (DUTO) genoemd. MDTO helpt overheden bij het voldoen aan wettelijke verplichtingen en vergemakkelijkt samenwerking en gegevensuitwisseling.

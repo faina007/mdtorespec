@@ -1,4 +1,3 @@
-### Wat is een metagegevenschema
 Een metagegevensschema beschrijft de structuur, betekenis en regels waar bepaalde metagegevens aan moeten voldoen. Of zoals geformuleerd in NEN-ISO 23081 een “logische structuur die het verband aangeeft tussen elementen van metagegevens, doorgaans door regels vast te stellen voor het gebruik en beheer van metagegevens, vooral met betrekking tot de semantiek, de syntaxis en de keuzevrijheid (mate van verplichting) van waarden."
 
 Een metagegevensschema kan voor verschillende doeleinden gebruikt worden, zoals:
