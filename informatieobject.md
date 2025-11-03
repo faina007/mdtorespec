@@ -31,7 +31,6 @@
 
 - Informatieobjecten binnen de context van **MDTO** zijn gegevensobjecten die ontstaan uit de uitvoering van **overheidstaken**.  
 De term *informatieobject* komt in wet- en regelgeving ook voor als **archiefstuk** of **document**.  
-
 - Een informatieobject dat bestaat uit meerdere kleinere informatieobjecten wordt beschouwd als een **aggregatie**.
 
 **Voorbeelden**

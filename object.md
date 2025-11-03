@@ -13,6 +13,7 @@
 - MDTO schrijft geen maximale lengte voor, maar het wordt aanbevolen om een naam te kiezen van maximaal 80 karakters. Dit zorgt er bijvoorbeeld voor dat de naam in de presentatie van zoekresultaten volledig getoond kan worden. 
 
 - Dit wordt, naast ‘naam’, ook wel eens ‘titel’ genoemd.
+
 **Voorbeelden**
 
 - “Kapvergunning – Van de Spiegelstraat 12, Den Haag – 23 februari 2009” 
