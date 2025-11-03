@@ -1,0 +1,5 @@
+MDTO kent geen overerving van metagegevens (attribuutwaarden) tussen aggregatieniveaus. Dit betekent dat bij de uitwisseling van MDTO-metagegevens attribuutwaarden op elk aggregatieniveau opgenomen moeten zijn. 
+
+Wanneer overerving van metagegevens wordt toegepast is het door de tijd heen moeilijker te waarborgen dat individuele informatieobjecten alle gegevens bevatten. Dit wordt met name een probleem als de informatieobjecten buiten de grenzen van het systeem komen waarin zij zijn aangemaakt.
+
+Omdat MDTO geen eisen stelt aan de manier waarop metagegevens worden vastgelegd, is het wel toegestaan om bij het vastleggen van de metagegevens overerving toe te passen. Mits zij bij de uitwisseling van deze metagegevens wel op elk aggregatieniveau worden genoemd. Een archiefvormer kan in een informatiesysteem bijvoorbeeld alleen op het hoogste aggregatieniveau worden vastgelegd. Bij een uitwisseling dient de archiefvormer dan wel op elk aggregatieniveau vermeld te worden.
