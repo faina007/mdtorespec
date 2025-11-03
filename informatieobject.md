@@ -4,8 +4,6 @@
 
 - Overerft van Object
 
----
-
 ## Attributen
 | Attribuut                      | Omschrijving                                                                          | Verplicht | Herhaalbaar | Datatype                      |
 | ------------------------------ | ------------------------------------------------------------------------------------- | --------- | ----------- | ----------------------------- |
@@ -31,16 +29,12 @@
 | `activiteit`                   | De handeling of taak waaruit het informatieobject is voortgekomen.                    | Nee       | Ja          | `verwijzingGegevens`          |
 | `beperking gebruik`            | Eventuele beperkingen op het gebruik of de toegang van het informatieobject.          | Nee       | Ja          | `beperkingGebruikType`        |
 
----
-
 ## Toelichting
 
-Informatieobjecten binnen de context van **MDTO** zijn gegevensobjecten die ontstaan uit de uitvoering van **overheidstaken**.  
+- Informatieobjecten binnen de context van **MDTO** zijn gegevensobjecten die ontstaan uit de uitvoering van **overheidstaken**.  
 De term *informatieobject* komt in wet- en regelgeving ook voor als **archiefstuk** of **document**.  
 
-Een informatieobject dat bestaat uit meerdere kleinere informatieobjecten wordt beschouwd als een **aggregatie**.
-
----
+- Een informatieobject dat bestaat uit meerdere kleinere informatieobjecten wordt beschouwd als een **aggregatie**.
 
 ## Voorbeelden
 
@@ -48,10 +42,3 @@ Een informatieobject dat bestaat uit meerdere kleinere informatieobjecten wordt 
 - Een database  
 - Een dossier  
 - Een website  
-
----
-
-> **Opmerking:**  
-> Dit element vormt een kernonderdeel van het MDTO-schema en biedt de basis voor het beschrijven, beheren en duurzaam toegankelijk maken van digitale overheidsinformatie.
-
-
