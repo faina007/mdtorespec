@@ -1,4 +1,3 @@
-# Aggregaties
 Een informatieobject kan samengesteld zijn uit andere informatieobjecten. Dit wordt een aggregatie genoemd. Een archief omvat bijvoorbeeld alle informatieobjecten van één organisatie of persoon. Een dossier bevat alle informatieobjecten die op een bepaald onderwerp betrekking hebben. Een website bevat meerdere webpagina’s en een e-mail kan bijlagen bevatten. MDTO gaat ervan uit dat metagegevens bij elk aggregatieniveau zijn vastgelegd. Het is niet eenduidig wanneer een informatieobject als aggregatie beschouwd wordt. Bijvoorbeeld:
 
 - Is een e-mail met een bijlage een ongedeeld informatieobject? Of is het een aggregatie met als onderdelen de tekst van de mail en de bijlage?

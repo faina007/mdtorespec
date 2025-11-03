@@ -1,4 +1,3 @@
-# Soorten objecten
 MDTO maakt onderscheid tussen verschillende soorten objecten waaraan metagegevens verbonden zijn:
 
 - Informatieobject: Een op zichzelf staand geheel van gegevens met een eigen identiteit. Zoals een tekstdocument of een foto. Zie de definitie van Informatieobject voor een nadere toelichting.

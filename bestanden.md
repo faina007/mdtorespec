@@ -1,4 +1,3 @@
-# Bestanden
 MDTO maakt onderscheid tussen een informatieobject als eenheid van informatie ongeacht de vorm, en de specifieke vorm waarin deze informatie wordt gerepresenteerd. Bestanden zijn één vorm van representatie (ook wel manifestatie genoemd). Maar een representatie kan bijvoorbeeld ook een papieren stuk of een videotape zijn. Andere vormen dan bestanden worden in MDTO verder niet behandeld.
 
 De metagegevens die MDTO specificeert voor een informatieobject zijn onafhankelijk van haar representaties. Zoals de titel of auteur. De metagegevens die MDTO specificeert voor een bestand hebben specifiek betrekking op die representatie. Zoals het aantal bytes en het bestandsformaat. Door de metagegevens van informatieobject en representatie van elkaar te scheiden hoeven de representatieonafhankelijke metagegevens slechts één keer vastgelegd te worden. En kunnen in een later stadium gemakkelijk representaties toegevoegd worden aan een informatieobject.
