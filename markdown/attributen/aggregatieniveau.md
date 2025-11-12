@@ -1,7 +1,7 @@
 | Eigenschap         | Waarde                                                                                                                                     |
 | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Label**          | aggregatieniveau                                                                                                                           |
-| **Domein**         | [Informatieobject](#informatieobject)                                                                                                      |
+| **Domein**         | [Informatieobject](#klok)                                                                                                                  |
 | **Bereik**         | BegripGegevens                                                                                                                             |
 | **Definitie**      | Het aggregatieniveau van het informatieobject.                                                                                             |
 | **Doel**           | *Vindbaarheid:* Zoeken op specifiek aggregatieniveau. <br> *Interpreteerbaarheid:* Geeft informatie over de aard van het informatieobject. |
