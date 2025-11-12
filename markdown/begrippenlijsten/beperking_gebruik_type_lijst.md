@@ -1,5 +1,5 @@
 Type begrippenlijst: Open \
-Deze begrippenlijst wordt gebruikt binnen het attribuut aggregatieniveau
+Deze begrippenlijst wordt gebruikt binnen het attribuut beperkingGebruikType. 
 
 | Label            | Definitie                                                                                                                                                                  |
 | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

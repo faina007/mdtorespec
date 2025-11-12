@@ -1,4 +1,4 @@
-> Een op zichzelf staand geheel van gegevens met een eigen identiteit.
+Een op zichzelf staand geheel van gegevens met een eigen identiteit.
 
 - Overerft van Object
 

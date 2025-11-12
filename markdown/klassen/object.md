@@ -9,9 +9,7 @@
 **Toelichting**
 
 - Het wordt aanbevolen om een naam te kiezen die betekenisvoller is voor anderen dan de direct betrokkenen. Bijvoorbeeld door een beknopte, specifieke omschrijving van de inhoud op te nemen. Denk hierbij aan een aanduiding van onderwerp, plaats en tijd. 
-
 - MDTO schrijft geen maximale lengte voor, maar het wordt aanbevolen om een naam te kiezen van maximaal 80 karakters. Dit zorgt er bijvoorbeeld voor dat de naam in de presentatie van zoekresultaten volledig getoond kan worden. 
-
 - Dit wordt, naast ‘naam’, ook wel eens ‘titel’ genoemd.
 
 **Voorbeelden**
