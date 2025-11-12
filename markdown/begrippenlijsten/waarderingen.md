@@ -1,4 +1,4 @@
-Type begrippenlijst: Gesloten \ 
+Type begrippenlijst: Gesloten \
 Deze begrippenlijst wordt gebruikt binnen het attribuut waardering.
 
 | Code | Label                | Definitie                                                                                                                         |
