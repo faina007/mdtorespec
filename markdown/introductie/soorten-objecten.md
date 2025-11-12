@@ -8,6 +8,6 @@ MDTO maakt onderscheid tussen verschillende soorten objecten waaraan metagegeven
 
 In het onderstaande diagram zijn de in MDTO gespecificeerde relaties tussen de verschillende objecten weergegeven:
 
-![](../../images/mdto_diagram_relaties.png)
+![](../images/mdto_diagram_relaties.png)
 
 
