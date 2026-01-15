@@ -5,21 +5,34 @@
     <meta charset='utf-8'>
     <script src='js/respec.js' async class='remove'></script>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        .sidelabel {
+            position: fixed;
+            -webkit-transform-origin: top right;
+            right: 100%;
+            top: 0;
+            -webkit-transform: rotate(-90deg);
+            padding: 4px 50px 4px 10px;
+            color: white;
+            white-space: nowrap;
+            z-index: 1;
+            background-color: #045D9F;
+        }
+    </style>
     <script class='remove'>
         // All config options at https://respec.org/docs/
         var respecConfig = {
             // Working Groups ids at https://respec.org/w3c/groups/
             format: "markdown",
             group: "webapps",
-            subtitle: "Metagegevens voor duurzaam toegankelijke overheidsinformatie",
             specStatus: "base",
+            subtitle: "Metagegevens voor duurzaam toegankelijke overheidsinformatie",
             noRecTrack: true,
-            publishDate: "",
-            modificationDate: "",
             editors: [{
                 name: "Pietje Puk",
                 url: "http://your-site.com",
             }],
+            noUI: false,
             isPreview: false,
             logos: [
                 {
@@ -84,7 +97,7 @@
 
 
     <!-- KLASSEN-->
-    <h2 id="klasse_klassen">Klassen</h2>
+    <h2 id="klasse_klassen">Klassensss</h2>
     <div data-include-format="markdown" data-include="markdown/klassen/introductie.md"></div>
 
     <h3 id="klasse_object">Object</h3>
@@ -124,7 +137,7 @@
 
 
     <!-- ATTRIBUTEN -->
-    <h2 id="attribuut_introductie">Attribuuten</h2>
+    <h2 id="attribuut_introductie">Attributen</h2>
     <div data-include-format="markdown" data-include="markdown/attributen/introductie.md"></div>
 
     <h3 id="attribuut_aggregatieniveau">aggregatieniveau</h3>
@@ -201,6 +214,7 @@
     <section id='conformance'>
         <!-- This section is filled automatically by ReSpec. -->
     </section>
+    <div class="sidelabel">MDTO - Vastgestelde versie</div>
 </body>
 
 </html>
