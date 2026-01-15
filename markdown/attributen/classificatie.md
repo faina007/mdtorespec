@@ -1,6 +1,6 @@
 | Eigenschap     | Waarde                                                                                                                                     |
 | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| Label          | aggregatieniveau                                                                                                                           |
+| Label          | classificatie                                                                                                                              |
 | Domein         | [Informatieobject](#klasse_informatieobject)                                                                                               |
 | Bereik         | BegripGegevens                                                                                                                             |
 | Definitie      | Het aggregatieniveau van het informatieobject.                                                                                             |
