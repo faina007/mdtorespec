@@ -15,6 +15,7 @@ tr:nth-child(odd) {
 }
 
 th {
-    background-color: #f6f8fa;
+    background-color: #007bc7;
     font-weight: 600;
+    color: white;
 }
