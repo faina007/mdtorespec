@@ -23,7 +23,7 @@ MDTO maakt onderscheid tussen verschillende soorten objecten waaraan metagegeven
 
 In het onderstaande diagram zijn de in MDTO gespecificeerde relaties tussen de verschillende objecten weergegeven:
 
-![test](/images/mdto_diagram_relaties.png)
+![testje](images/mdto-respec/markdown/diagram.png)
 
 ### Aggregaties
 Een informatieobject kan samengesteld zijn uit andere informatieobjecten. Dit wordt een aggregatie genoemd. Een archief omvat bijvoorbeeld alle informatieobjecten van één organisatie of persoon. Een dossier bevat alle informatieobjecten die op een bepaald onderwerp betrekking hebben. Een website bevat meerdere webpagina’s en een e-mail kan bijlagen bevatten. MDTO gaat ervan uit dat metagegevens bij elk aggregatieniveau zijn vastgelegd. Het is niet eenduidig wanneer een informatieobject als aggregatie beschouwd wordt. Bijvoorbeeld:
